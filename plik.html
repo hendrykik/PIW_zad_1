@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <p class = "logo">
+            Memlo
+        </p>
+        <ul class = "menu">
+            <li><a href="#heroSection">Home    </a> </li>
+            <li><a href="#destiantion-section">Offers  </a> </li>
+            <li><a href="#reviews-section">Review  </a> </li>
+            <li><a href="#footer-section">Contacts and socials</a> </li>
+        </ul>
+    </nav>
+    <section id="heroSection" class="heroSection grid">
+        <div class = "hero-image">
+            <div class = "welcome-text">
+                <h3><br> Your dream house is waiting for you!</h3>
+            </div>
+            <div class="search-container">
+                <input placeholder="Enter an address, neighborhood or city">
+                <button class = "primary-green" type="submit">Browse</button>
+            </div>
+        </div>
+    </section>
+    <section id="destiantion-section" class="destinations-section grid">
+        <h3 class="orange destinations-text"> Our best offers</h3>
+
+        <article class="card" type="destination" mode="vertical">
+            <div class="destination-image-container"  mode="vertical">
+                <img class="destination-image" src="./assets/polska1.jpg" alt="Białystok">
+            </div>
+            <div class="destination-content">
+                <div class="destination-card-header">
+                    <p class="green bold">Białystok</p>
+                </div>
+                <p class="dark">3 bedrooms, 2 bathrooms, 1379 sqft, beautiful view and large yard. The house is located in a peaceful and quiet neighborhood</p>
+                <div class="destination-card-footer">
+                    <p class="orange bold">575 000 zł</p>
+                    <button class="primary-orange" type="submit">Buy now</button>
+                </div>
+            </div>
+        </article>
+        <article class="card" mode="vertical" type="destination">
+            <div class="destination-image-container" mode="vertical">
+                <img  class="destination-image" mode="vertical" src="./assets/footer 2.jpg" alt="Katowice">
+            </div>
+            <div class="destination-content">
+                <div class="destination-card-header">
+                    <p class="green bold">Katowice</p>
+                </div>
+                <p class="dark">5 bedrooms, 3 bathrooms, 1802 sqft, underground garage and average yard.</p>
+                <div class="destination-card-footer">
+                    <p class="orange bold">810 000 zł</p>
+                    <button class="primary-orange" type="submit">Buy now</button>
+                </div>
+            </div>
+        </article>
+        <article class="card" mode="vertical" type="destination">
+            <div class="destination-image-container" mode="vertical">
+                <img  class="destination-image" mode="vertical" src="./assets/house 3.jpg" alt="Gdańsk">
+            </div>
+            <div class="destination-content">
+                <div class="destination-card-header">
+                    <p class="green bold">Gdańsk</p>
+                </div>
+                <p class="dark">5 bedrooms, 3 bathrooms, 2101 sqft, beautiful view on sea, large yard and big pool.</p>
+                <div class="destination-card-footer">
+                    <p class="orange bold">1 450 000 zł</p>
+                    <button class="primary-orange" type="submit">Buy now</button>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section id="reviews-section" class="reviews-section grid">
+        <h3 class="green">Read the opinions of our consumers and choose your dream home!</h3>
+
+            <article class="card" type="review" mode="vertical">
+                <div class="review-image-container">
+                    <img class="review-image" src="./assets/dom1.jpeg" alt="Zakopane">
+                </div>
+                <p class="dark"><i class="fa fa-map-marker"></i>Zakopane</p>
+                <p class="dark">Thanks to Memlo, we bought our dream house in the mountains. The house was exactly as described and reasonably priced. Now my husband and I are happy raising goats and sheep.</p>
+                <p class="green bold">Anna</p>
+            </article>
+            <article class="card" type="review" mode="vertical">
+                <div class="review-image-container">
+                    <img class="review-image" src="./assets/dom2.jpeg" alt="Szczecin">
+                </div>
+                <p class="dark"><i class="fa fa-map-marker"></i>Szczecin</p>
+                <p class="dark">The house is located very close to the center, which is rare in such a large city as Szczecin. There was no similar offer on other sites, only here on Memlo. I am very pleased with our cooperation, contact is quick and problem-free. I made an appointment with a rep literally a day after contacting the company. In conclusion, I can recommend this site to everyone.</p>
+                <p class="green bold">Filip</p>
+            </article>
+            <article class="card" type="review" mode="vertical">
+                <div class="review-image-container">
+                    <img class="review-image" src="./assets/dom3.jpeg" alt="Rowek">
+                </div>
+                <p class="dark"><i class="fa fa-map-marker"></i>Rowek</p>
+                <p class="dark">My wife and I chose this house so that our children would grow up in a quiet area and close to nature. We bought this house through Memlo, which turned out to be very honest. There were no catches in the contract and everything was exactly as in the offer.</p>
+                <p class="green bold">Jeremiasz</p>
+            </article>
+    </section>
+
+    <section id="footer-section" class="footer-section grid">
+        <footer class="contact-details-container">
+            <h3 class="orange footer-text">Contact us today to buy your dream home!</h3>
+            <ul class="contact-details">
+                <li><i class="fa fa-map-marker"></i>Reja 55, Wrocław, Polska</li>
+                <li><i class="fa fa-envelope"></i>memlo@gmail.com</li>
+                <li><i class="fa fa-phone"></i>+48 512 780 003</li>
+            </ul> 
+            <ul class="contact-details">
+                <li><i class="fab fa-facebook"><a href="https://www.facebook.com/politechnika">facebook/memlo</a></i></li>
+                <li><i class="fab fa-instagram"><a href="https://www.instagram.com/politechnika_wroclawska/">instagram/memlo</a></i></li>
+            </ul> 
+        </footer>
+        
+        <div class="footer-image">
+            <img  src="./assets/a1.jpeg" alt="dom">
+        </div>
+        <p class="logo">Memlo<br><br><br></p>
+    </section>
+</body>
+</html>
