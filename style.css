@@ -277,7 +277,7 @@ i{
 .button-section {
     grid-area: 5/2/6/6 ;
     display: flex;
-    margin-top: 50px;
+    margin-top: 65px;
 }
 
 .gray-text {
@@ -307,7 +307,7 @@ i{
 }
 
 button1 {
-    margin-left: 20px;
+    margin-left: 100px;
     border: none;
     outline: none;
     padding: 1rem 1rem; /* zmniejszanie rozmiaru paddingu */
