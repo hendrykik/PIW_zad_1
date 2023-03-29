@@ -433,6 +433,7 @@ button{
 .destinations-text{
     grid-area: 1/1/2/13;
     justify-self: center;
+    margin-bottom: 93px;
 }
 
 .card{
@@ -467,6 +468,11 @@ button{
     align-items: flex-start;
 }
 
+.niebieski1{
+    background: #A5B3FF;
+    border-radius: 4px;
+}
+
 .destination-image-container[mode="horizontal"]{
     width: 255px;
     flex-shrink: 0;
@@ -496,6 +502,53 @@ button{
     align-items: flex-start;
 }
 
+.destination-card-bed{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url(./assets/Vector.png);
+    background-repeat: no-repeat;
+    background-size: 6%;
+    background-position: left;
+}
+
+.nieb{
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    color: #151E50;
+}
+
+.woo{
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    color: #151E50;
+}
+
+.destination-card-bed1{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url(./assets/Vector.png);
+    background-repeat: no-repeat;
+    background-size: 12%;
+    background-position: left;
+}
+
+.bok{
+    margin-left: 44px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    color: #151E50;
+}
+
 .destination-card-footer{
     display: flex;
     flex-direction: row;
@@ -523,6 +576,7 @@ button{
 }
 .card[type="destination"]:nth-of-type(3) {
     grid-area: 3/5/4/9;
+    max-width: 100%;
 }
 .card[type="destination"]:nth-of-type(4) {
     grid-area: 2/9/4/13;
