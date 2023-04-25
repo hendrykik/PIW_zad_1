@@ -1,2 +1,1 @@
-Projektowanie interfejsów webowych
-Laboratorium 1
+Projektowanie interfejsów webowych - Laboratorium
