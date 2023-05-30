@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "city": "Białystok",
+      "bedrooms": 2,
+      "price": 340000,
+      "description": "Mieszkanie z dwoma pokojami oraz pięknym widokiem.",
+      "email": "ogloszenie1@example.com"
+    },
+    {
+      "id": 2,
+      "city": "Warszawa",
+      "bedrooms": 1,
+      "price": 480000,
+      "description": "Mała kawalerka w centrum Polski.",
+      "email": "ogloszenie2@example.com"
+    },
+    {
+      "id": 3,
+      "city": "Wrocław",
+      "bedrooms": 3,
+      "price": 1300000,
+      "description": "Średniej wielkości dom na obrzezach Wrocławia.",
+      "email": "ogloszenie3@example.com"
+    },
+    {
+      "id": 4,
+      "city": "Gdańsk",
+      "bedrooms": 2,
+      "price": 710000,
+      "description": "Mieszkanie z widokiem na morze.",
+      "email": "ogloszenie4@example.com"
+    },
+    {
+      "id": 5,
+      "city": "Sczecin",
+      "bedrooms": 2,
+      "price": 510000,
+      "description": "Mieszkanie w rodzinnej dzielnicy.",
+      "email": "ogloszenie5@example.com"
+    },
+    {
+      "id": 6,
+      "city": "Bydgoszcz",
+      "bedrooms": 3,
+      "price": 813000,
+      "description": "Duze mieszkanie w mieście duzego rapera.",
+      "email": "ogloszenie6@example.com"
+    }
+  ]
+  
